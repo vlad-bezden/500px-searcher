@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack --display-error-details --colors --watch",
     "dev": "webpack-dev-server --inline --colors --open",
-    "test": "jest --watch"
+    "test-watch": "jest --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",

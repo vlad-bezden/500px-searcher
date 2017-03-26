@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Thumbnail renders an img tag with the correct src 1`] = `
+exports[`Thumbnail renders correctly 1`] = `
 <div>
   <img
     src="http://test.com/test.jpg"
