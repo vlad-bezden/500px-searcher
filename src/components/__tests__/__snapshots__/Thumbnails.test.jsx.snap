@@ -11,11 +11,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/63835479/w%3D280_h%3D280/67f4205dc8d9009c92d5fcb62abfd34b?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/63835479/w%3D280_h%3D280/67f4205dc8d9009c92d5fcb62abfd34b?v=0"
+    />
   </div>
   <div
     style={
@@ -26,11 +24,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/63730567/w%3D280_h%3D280/f8023f833a00ed5b0d5a78015dd6ce22?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/63730567/w%3D280_h%3D280/f8023f833a00ed5b0d5a78015dd6ce22?v=0"
+    />
   </div>
   <div
     style={
@@ -41,11 +37,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/76841387/w%3D280_h%3D280/0aeb7fa17244f346c9df2214a51d6f54?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/76841387/w%3D280_h%3D280/0aeb7fa17244f346c9df2214a51d6f54?v=0"
+    />
   </div>
   <div
     style={
@@ -56,11 +50,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/99417191/w%3D280_h%3D280/14c607cd405d06f3bdd35f0d771f26e1?v=9"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/99417191/w%3D280_h%3D280/14c607cd405d06f3bdd35f0d771f26e1?v=9"
+    />
   </div>
   <div
     style={
@@ -71,11 +63,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/69253929/w%3D280_h%3D280/4a118b07d2e92dc9ea740981581cf165?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/69253929/w%3D280_h%3D280/4a118b07d2e92dc9ea740981581cf165?v=0"
+    />
   </div>
   <div
     style={
@@ -86,11 +76,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/96897331/w%3D280_h%3D280/ba41e8db5ed84074c078ea059ce4ae9c?v=11"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/96897331/w%3D280_h%3D280/ba41e8db5ed84074c078ea059ce4ae9c?v=11"
+    />
   </div>
   <div
     style={
@@ -101,11 +89,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/63425207/w%3D280_h%3D280/a26497a76099ecc12e1fe9e64fd653d3?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/63425207/w%3D280_h%3D280/a26497a76099ecc12e1fe9e64fd653d3?v=0"
+    />
   </div>
   <div
     style={
@@ -116,11 +102,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/123195029/w%3D280_h%3D280/5c2ae602eed0a7a0cc88490ff75b1d34?v=6"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/123195029/w%3D280_h%3D280/5c2ae602eed0a7a0cc88490ff75b1d34?v=6"
+    />
   </div>
   <div
     style={
@@ -131,11 +115,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/76796395/w%3D280_h%3D280/b85de1c7d1005433d40a14120696254a?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/76796395/w%3D280_h%3D280/b85de1c7d1005433d40a14120696254a?v=0"
+    />
   </div>
   <div
     style={
@@ -146,11 +128,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/156174679/w%3D280_h%3D280/f91cde182e51aba534280936f5705aa0?v=3"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/156174679/w%3D280_h%3D280/f91cde182e51aba534280936f5705aa0?v=3"
+    />
   </div>
   <div
     style={
@@ -161,11 +141,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/83674487/w%3D280_h%3D280/a36eef466e19b16c71660f203fc8c3f8?v=9"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/83674487/w%3D280_h%3D280/a36eef466e19b16c71660f203fc8c3f8?v=9"
+    />
   </div>
   <div
     style={
@@ -176,11 +154,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/63956645/w%3D280_h%3D280/b51bc06655225c876022013cdf8c94aa?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/63956645/w%3D280_h%3D280/b51bc06655225c876022013cdf8c94aa?v=0"
+    />
   </div>
   <div
     style={
@@ -191,11 +167,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/63802775/w%3D280_h%3D280/dc4fe9c7f7992d8aca5c451226d38341?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/63802775/w%3D280_h%3D280/dc4fe9c7f7992d8aca5c451226d38341?v=0"
+    />
   </div>
   <div
     style={
@@ -206,11 +180,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/69176397/w%3D280_h%3D280/280e1124292f51ffc1859a60d98ad325?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/69176397/w%3D280_h%3D280/280e1124292f51ffc1859a60d98ad325?v=0"
+    />
   </div>
   <div
     style={
@@ -221,11 +193,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/72624433/w%3D280_h%3D280/21d7e37ecbe6f6d5309c746c0c6f4843?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/72624433/w%3D280_h%3D280/21d7e37ecbe6f6d5309c746c0c6f4843?v=0"
+    />
   </div>
   <div
     style={
@@ -236,11 +206,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/87111511/w%3D280_h%3D280/de03f115b4f98454f3a04bf176cae807?v=5"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/87111511/w%3D280_h%3D280/de03f115b4f98454f3a04bf176cae807?v=5"
+    />
   </div>
   <div
     style={
@@ -251,11 +219,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/72887905/w%3D280_h%3D280/392182cd121ae0b4d596c691f1af1db7?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/72887905/w%3D280_h%3D280/392182cd121ae0b4d596c691f1af1db7?v=0"
+    />
   </div>
   <div
     style={
@@ -266,11 +232,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/79253787/w%3D280_h%3D280/8e4d591ddfc79de4a796788eb060443a?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/79253787/w%3D280_h%3D280/8e4d591ddfc79de4a796788eb060443a?v=0"
+    />
   </div>
   <div
     style={
@@ -281,11 +245,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/64324463/w%3D280_h%3D280/e34bc9f5a3fea96cd2eb6f4e7190502a?v=0"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/64324463/w%3D280_h%3D280/e34bc9f5a3fea96cd2eb6f4e7190502a?v=0"
+    />
   </div>
   <div
     style={
@@ -296,11 +258,9 @@ exports[`Thumbnails renders correctly 1`] = `
       }
     }
   >
-    <div>
-      <img
-        src="https://drscdn.500px.org/photo/105828979/w%3D280_h%3D280/c08b16e75062f340877c2f053d89188c?v=6"
-      />
-    </div>
+    <Thumbnail
+      src="https://drscdn.500px.org/photo/105828979/w%3D280_h%3D280/c08b16e75062f340877c2f053d89188c?v=6"
+    />
   </div>
 </div>
 `;
