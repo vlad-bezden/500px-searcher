@@ -30,6 +30,7 @@
   "homepage": "https://github.com/vlad-bezden/500px-searcher#readme",
   "dependencies": {
     "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
