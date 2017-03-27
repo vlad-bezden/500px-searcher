@@ -16,9 +16,9 @@ const PhotoModal = ({ photo, show, onHide }) => (
 )
 
 PhotoModal.propTypes = {
-    photo: React.PropTypes.object,
-    show: React.PropTypes.bool.isRequired,
-    onHide: React.PropTypes.func.isRequired
+  photo: React.PropTypes.object,
+  show: React.PropTypes.bool.isRequired,
+  onHide: React.PropTypes.func.isRequired
 }
 
 export default PhotoModal
