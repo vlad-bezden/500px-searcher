@@ -4,7 +4,6 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import fetchMock from 'fetch-mock'
 
-import Search from '../Search'
 import SearchForm from '../SearchForm'
 
 import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/mocks'
@@ -38,7 +37,7 @@ test('Search searches correctly', (done) => {
         expect(tree).toMatchSnapshot()
 
         expect(fetchMock.calls.length).toBe(1)
-        
+
         done()
     }, 0)
 })
