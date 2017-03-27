@@ -7,7 +7,7 @@ const Thumbnail = ({ src }) => (
 )
 
 Thumbnail.propTypes = {
-    src: React.PropTypes.string.isRequired
+  src: React.PropTypes.string.isRequired
 }
 
 export default Thumbnail

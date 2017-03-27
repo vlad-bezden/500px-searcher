@@ -13,7 +13,7 @@ class SearchForm extends React.Component {
     onSearch: React.PropTypes.func.isRequired
   }
 
-	handleSubmit = (e) => {
+  handleSubmit = (e) => {
     e.preventDefault()
     this.props.onSearch(this.state.query)
   }
