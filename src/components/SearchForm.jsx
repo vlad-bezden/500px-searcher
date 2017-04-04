@@ -3,12 +3,12 @@ import React from 'react'
 class SearchForm extends React.Component {
   constructor() {
     super()
-    
+
     this.state = {
       query: ''
     }
   }
-  
+
   static propTypes = {
     onSearch: React.PropTypes.func.isRequired
   }
@@ -17,7 +17,7 @@ class SearchForm extends React.Component {
     e.preventDefault()
     this.props.onSearch(this.state.query)
   }
-  
+
   render() {
     return (
       <form className='form-inline' onSubmit={this.handleSubmit}>
@@ -27,11 +27,11 @@ class SearchForm extends React.Component {
             className='form-control'
             id='search'
             placeholder='Enter your search'
-            style={{ marginRight: '5px'}}
-            onChange={(e) => this.setState({query: e.target.value})}
+            style={{ marginRight: '5px' }}
+            onChange={(e) => this.setState({ query: e.target.value })}
           />
         </div>
-        
+
         <button
           type='submit'
           className='btn btn-default'>

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Thumbnail = ({ src }) => (
-    <div>
-        <img src={src} />
-    </div>
+  <div>
+    <img src={src} />
+  </div>
 )
 
 Thumbnail.propTypes = {

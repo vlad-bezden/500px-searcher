@@ -7,7 +7,7 @@ const Header = () =>
       <ul className='nav navbar-nav'>
         <li className='active'><a href='#'>Search</a></li>
       </ul>
-  	</div>
+    </div>
   </nav>
 
 export default Header

@@ -1,37 +1,35 @@
 {
-    "parser": "babel-eslint",
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true,
-        "jest": true
+  "env": {
+    "jest": true,
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
     },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
-        },
-        "sourceType": "module",
-        "ecmaVersion": 6
-    },
-    "rules": {
-        "indent": ["error", 2],
-        "quotes": ["error", "single"],
-        "semi": ["error", "never"],
-        "no-const-assign": "error",
-        "no-this-before-super": "error",
-        "no-undef": "error",
-        "no-unreachable": "error",
-        "no-unused-vars": "error",
-        "constructor-super": "error",
-        "valid-typeof": "error",
-        "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error",
-        "react/jsx-no-undef": "error",
-        "react/prop-types": "error"
-    },
-    "eslint.workingDirectories": [
-        "./src"
-    ]
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "no-console": "off",
+    "quotes": ["error", "single"],
+    "linebreak-style": ["error", "unix"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": "error"
+  },
+  "globals": {
+    "__filename": true,
+    "__dirname": true
+  }
 }

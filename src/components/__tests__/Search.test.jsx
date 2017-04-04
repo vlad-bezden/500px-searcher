@@ -24,7 +24,7 @@ test('Search searches correctly', (done) => {
 		image_size[]=3&
 		image_size[]=4&
 		term=test`,
-        MOCK_500PX_PHOTOS_RESPONSE)
+    MOCK_500PX_PHOTOS_RESPONSE)
 
   const component = shallow(
     <Search />
