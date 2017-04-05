@@ -7,7 +7,7 @@
     "start": "webpack --display-error-details --colors --watch",
     "dev": "webpack-dev-server --inline --colors --open",
     "test-watch": "jest --watch",
-    "test": "jest",
+    "test": "jest --watch",
     "lint": "./node_modules/.bin/eslint \"./src/**/*@(.js|.jsx)\""
   },
   "repository": {

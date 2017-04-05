@@ -12,6 +12,10 @@ class Search extends React.Component {
     }
   }
 
+  static propTypes = {
+    onShowPhoto: React.PropTypes.func.isRequired
+  }
+
   search = (query) => {
     const apiUrl = `https://api.500px.com/v1/photos/search?
 		consumer_key=lILSGooAAcT8UA91VwlYViFeiY3SuPoebq9BtRQ4&
@@ -46,10 +50,6 @@ class Search extends React.Component {
       </div>
     )
   }
-}
-
-Search.propTypes = {
-  onShowPhoto: React.PropTypes.func.isRequired
 }
 
 export default Search
