@@ -7,7 +7,7 @@ import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/mocks'
 
 test('Thumbnails renders correctly', () => {
   const component = shallow(
-    <Thumbnails photos={JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos} />
+    <Thumbnails photos={JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos} onClick={f => f} />
   )
 
   const tree = component.getNode()
