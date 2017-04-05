@@ -14,3 +14,15 @@ test('Thumbnails renders correctly', () => {
 
   expect(tree).toMatchSnapshot()
 })
+
+test('Thumbnails calls onClick with the content photo', () => {
+  const onClickStub = jest.fn()
+  const photos = JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos
+  const component = shallow(
+    <Thumbnails photos={photos} onClick={onClickStub} />
+  )
+
+  component.find('a').at(0).simulate('click')
+
+  expect(onClickStub).toBeCalledWith(photos[0])
+})
