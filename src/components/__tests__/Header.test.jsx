@@ -1,13 +1,13 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
 
 import Header from '../Header'
 
 test('Header renders correctly', () => {
-  const component = renderer.create(
+  const component = shallow(
     <Header src='http://test.com/test.jpg' />
   )
-  const tree = component.toJSON()
+  const tree = component.getNode()
 
   expect(tree).toMatchSnapshot()
 })
