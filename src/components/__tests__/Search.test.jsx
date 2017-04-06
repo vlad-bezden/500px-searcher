@@ -7,7 +7,8 @@ import fetchMock from 'fetch-mock'
 import Search from '../Search'
 import SearchForm from '../SearchForm'
 
-import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/mocks'
+import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/request'
+jest.mock('../../tests/request')
 
 test('Search renders correctly', () => {
   const component = shallow(
