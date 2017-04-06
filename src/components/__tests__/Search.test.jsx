@@ -42,3 +42,13 @@ test('Search searches correctly', (done) => {
     done()
   }, 0)
 })
+
+test('Thumbnails calls onShowPhoto when it clicked', () => {
+  const onClickStub = jest.fn()
+  const component = shallow(
+    <Search onShowPhoto={onClickStub} />
+  )
+
+  component.find('Thumbnails').simulate('click')
+  expect(onClickStub).toBeCalled()
+})

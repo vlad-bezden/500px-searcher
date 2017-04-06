@@ -17,7 +17,7 @@ test('Thumbnails renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('Thumbnails calls onClick with the content photo', () => {
+test('Thumbnails calls onClick with the content photo when it clicked', () => {
   const onClickStub = jest.fn()
   const component = shallow(
     <Thumbnails photos={photosMock} onClick={onClickStub} />
