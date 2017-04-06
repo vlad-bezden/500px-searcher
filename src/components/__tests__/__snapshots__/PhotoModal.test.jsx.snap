@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoModal renders correctly when there is a photo 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop={true}
+  bsClass="modal"
+  bsSize="large"
+  dialogComponentClass={[Function]}
+  enforceFocus={true}
+  keyboard={true}
+  manager={
+    ModalManager {
+      "containers": Array [],
+      "data": Array [],
+      "handleContainerOverflow": true,
+      "hideSiblingNodes": true,
+      "modals": Array [],
+    }
+  }
+  onHide={[Function]}
+  renderBackdrop={[Function]}
+  restoreFocus={true}
+  show={true}
+>
+  <ModalHeader
+    aria-label="Close"
+    bsClass="modal-header"
+    closeButton={true}
+  >
+    <ModalTitle
+      bsClass="modal-title"
+      componentClass="h4"
+    >
+      Junction trails
+       by 
+      YoHomma
+    </ModalTitle>
+  </ModalHeader>
+  <ModalBody
+    bsClass="modal-body"
+    componentClass="div"
+  >
+    <img
+      src="https://drscdn.500px.org/photo/63835479/m%3D900_k%3D1_a%3D1/399d0e54f01e5d4398566b498cc1519e"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </ModalBody>
+</Modal>
+`;
+
+exports[`PhotoModal renders correctly when there is no photo 1`] = `null`;
