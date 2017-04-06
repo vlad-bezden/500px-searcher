@@ -11,7 +11,7 @@ import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/mocks'
 
 test('Search renders correctly', () => {
   const component = shallow(
-    <Search />
+    <Search onShowPhoto={f => f} />
   )
   const tree = component.getNode()
 
@@ -27,7 +27,7 @@ test('Search searches correctly', (done) => {
     MOCK_500PX_PHOTOS_RESPONSE)
 
   const component = shallow(
-    <Search />
+    <Search onShowPhoto={f => f} />
   )
 
   const searchForm = component.find(SearchForm)

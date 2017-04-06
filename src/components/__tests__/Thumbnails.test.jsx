@@ -5,9 +5,11 @@ import Thumbnails from '../Thumbnails'
 
 import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/mocks'
 
+const photosMock = JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos
+
 test('Thumbnails renders correctly', () => {
   const component = shallow(
-    <Thumbnails photos={JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos} onClick={f => f} />
+    <Thumbnails photos={photosMock} onClick={f => f} />
   )
 
   const tree = component.getNode()
@@ -17,12 +19,11 @@ test('Thumbnails renders correctly', () => {
 
 test('Thumbnails calls onClick with the content photo', () => {
   const onClickStub = jest.fn()
-  const photos = JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos
   const component = shallow(
-    <Thumbnails photos={photos} onClick={onClickStub} />
+    <Thumbnails photos={photosMock} onClick={onClickStub} />
   )
 
   component.find('a').at(0).simulate('click')
 
-  expect(onClickStub).toBeCalledWith(photos[0])
+  expect(onClickStub).toBeCalledWith(photosMock[0])
 })
