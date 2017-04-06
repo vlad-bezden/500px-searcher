@@ -13,7 +13,7 @@ test('App renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('App should set modalVisible to false when user click on hide button', () => {
+test('App should set modalVisible to false when user clicks on hide button', () => {
   const component = shallow(
     <App />
   )
@@ -24,4 +24,20 @@ test('App should set modalVisible to false when user click on hide button', () =
   component.find('PhotoModal').prop('onHide')()
 
   expect(component.state('modalVisible')).toBe(false)
+})
+
+test('App should set modalVisible to true and activePhoto to photo when user clicks thumbnail', () => {
+  const photo = {}
+  const component = shallow(
+    <App />
+  )
+  component.setState({
+    modalVisible: false,
+    activePhoto: photo
+  })
+
+  component.find('Search').prop('onShowPhoto')(photo)
+
+  expect(component.state('modalVisible')).toBe(true)
+  expect(component.state('activePhoto')).toBe(photo)
 })
