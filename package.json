@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --display-error-details --colors --watch",
-    "dev": "webpack-dev-server --inline --colors --open",
+    "dev": "webpack-dev-server --hot --progress --inline --colors --open",
     "test-watch": "jest --watch",
     "test": "jest",
     "lint": "./node_modules/.bin/eslint \"./src/**/*@(.js|.jsx)\""

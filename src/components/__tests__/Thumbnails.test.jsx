@@ -2,9 +2,9 @@ import React from 'react'
 import { shallow } from 'enzyme'
 
 import Thumbnails from '../Thumbnails'
-import { MOCK_500PX_PHOTOS_RESPONSE } from '../../tests/request'
+import { pictures } from '../../__mocks__/request'
 
-const photosMock = JSON.parse(MOCK_500PX_PHOTOS_RESPONSE).photos
+const photosMock = JSON.parse(pictures).photos
 
 test('Thumbnails renders correctly', () => {
   const component = shallow(
