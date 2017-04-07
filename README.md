@@ -9,5 +9,5 @@ Application written in React.js and provides examples for:
 * Using the fetch API to communicate with an API 
 * Rendering results from an API with React
 * Automated unit tests using Jest and Enzyme
-* Mocking API calls using fetch-mock
-* Mock async calls in unit tests
+* Mocking API calls using jest and mocking (Search.test.jsx and __mocks__/request.js)
+* Mock async calls in unit tests (Search.test.jsx)
