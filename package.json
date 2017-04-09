@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --hot --progress --inline --colors --open",
     "test-watch": "jest --watch",
     "test": "jest",
-    "lint": "./node_modules/.bin/eslint \"./src/**/*@(.js|.jsx)\""
+    "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
