@@ -11,3 +11,5 @@ Application written in React.js and provides examples for:
 * Automated unit tests using Jest and Enzyme
 * Mocking API calls using jest and mocking (Search.test.jsx and __mocks__/request.js)
 * Mock async calls in unit tests (Search.test.jsx)
+
+You can find working example of this application at [https://pics.netlify.com](https://pics.netlify.com/)
